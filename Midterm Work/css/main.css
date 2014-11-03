@@ -66,6 +66,13 @@ body {
 	padding-left: 25px;
 }
 
+.dp-content {
+	margin: 0 auto;
+	max-width: 600px;
+	text-align: center;
+
+}
+
 /*Side Bar*/
 .sidenav {
 	margin-left: 350px;
@@ -96,6 +103,5 @@ body {
 
 /*Footer*/
 .footer {
-	display: block;
-	float: left;
+	border-top: 1px solid black;
 }
