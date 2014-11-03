@@ -84,6 +84,12 @@ body {
 	padding-right: 50px;
 	padding-left: 25px;
 }
+ /* this box keepts the three divs in place */
+ 
+.box { 
+ max-width:1360px;
+ margin: auto;
+}
 
 .dp-content {
 	color: #00517a;
@@ -97,6 +103,53 @@ body {
 	color: #c00;
 }
 
+/* each pars's width and height and image css */
+#par1 {
+	max-height:700px;
+	max-width: 420px;
+	float:left;
+}
+
+#par2 {
+	max-height:700px;
+	max-width: 420px;
+	padding-left:50px;
+	padding-right:50px;
+	float:left;
+}
+
+#par3 {
+	max-height:700px;
+	max-width:420px;
+	float:right;
+}
+
+.cost-img { padding-top:25px;
+			max-width:100%;
+			max-height:100%;
+}
+
+/*media queries for the paragraphs*/
+@media (max-width:730px) {
+	#par1 {padding-right: 50px;
+		   padding-left: 50px;
+    }
+	#par3 {padding-right: 50px;
+		   padding-left: 50px;
+    }
+}
+
+@media (max-width:1030px) {
+	#par3 { margin:auto;
+			float:left;
+			}
+}
+
+@media (max-width:325px) {
+		.cost-img {
+			display:none;
+	}
+}
 /*Side Bar*/
 .sidenav {
 	margin-left: 400px;
@@ -137,6 +190,10 @@ body {
 
 /*Footer*/
 .footer {
+	max-width:100%;
 	color: #00517a;
 	border-top: 1px solid #a30000;
 }
+
+#bottom { clear:both;
+ }
