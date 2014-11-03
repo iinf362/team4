@@ -21,11 +21,14 @@ body {
 
 /*Navigation*/
 .nav {
-	border: 2px solid black;
 	border-radius: 20px;
 	margin: 0 auto;
 	max-width: 400px;
+	background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+    border: 1px solid #ccc;
 }
+
 .nav ul {
 	list-style: none;
 	margin: 0;
@@ -33,14 +36,24 @@ body {
 
 .nav li {
 	display: inline-block;
-	padding-right: 27px;
 }
 
 .nav a{
-	text-decoration: none;
+	display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #069;
+    padding-left: 5px;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
-
+.nav a:hover {
+	color: #c00;
+	background-color: #fff;
+	border: 1px dotted #ccc;
+}
 
 /*EyeCatcher*/
 .banner {
@@ -51,14 +64,20 @@ body {
 }
 
 
-
 /*Main Content*/
 .container {
 	display: block;
 	max-width: 700px;
 	margin: 0 auto;
 }
+
+.container h2 {
+	color: #c00;
+	text-align: center;
+}
+
 .content {
+	color: #00517a;
 	float: left;
 	max-width: 350px;
 	height: 100%;
@@ -67,10 +86,15 @@ body {
 }
 
 .dp-content {
+	color: #00517a;
 	margin: 0 auto;
 	max-width: 600px;
 	text-align: center;
+	font-size: 16px;
+}
 
+.dp-content h2 {
+	color: #c00;
 }
 
 /*Side Bar*/
@@ -103,5 +127,5 @@ body {
 
 /*Footer*/
 .footer {
-	border-top: 1px solid black;
+	border-top: 1px solid #00517a;
 }
