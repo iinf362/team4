@@ -106,13 +106,13 @@ body {
 /* each pars's width and height and image css */
 #par1 {
 	max-height:700px;
-	max-width: 420px;
+	max-width: 400px;
 	float:left;
 }
 
 #par2 {
 	max-height:700px;
-	max-width: 420px;
+	max-width: 400px;
 	padding-left:50px;
 	padding-right:50px;
 	float:left;
@@ -120,7 +120,7 @@ body {
 
 #par3 {
 	max-height:700px;
-	max-width:420px;
+	max-width:400px;
 	float:right;
 }
 
@@ -140,7 +140,7 @@ body {
 }
 
 @media (max-width:1030px) {
-	#par3 { margin:auto;
+	#par3 { margin: 0 auto;
 			float:left;
 			}
 }
