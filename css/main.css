@@ -3,15 +3,10 @@ body {
 }
 
 /*Header*/
-.top-container {
-	max-width: 100%;
-	background-color: #069;
-	padding: none;
-	margin: 0;
-}
 .head-container {
 	max-width: 1000px;
-	float: left;
+	margin: 0 auto;
+	text-align: center;
 	padding-bottom: 20px;
 }
 
@@ -74,7 +69,6 @@ body {
 	display: block;
 	max-width: 700px;
 	margin: 0 auto;
-	margin-bottom: 100px;
 }
 
 .container h2 {
@@ -196,9 +190,6 @@ body {
 
 /*Footer*/
 .footer {
-	/*position: absolute;*/
-	bottom: 0;
-	margin-top: 100px;
 	max-width:100%;
 	color: #00517a;
 	border-top: 1px solid #a30000;
