@@ -3,6 +3,10 @@ body {
 }
 
 /*Header*/
+.top-container {
+	max-width: 100%;
+	background-color: black;
+}
 .head-container {
 	max-width: 1000px;
 	margin: 0 auto;
