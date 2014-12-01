@@ -1,7 +1,10 @@
 body {
 	background-color: #e3e3e3;
 }
-
+#wrapper {
+	min-height: 100%;
+	position: relative;
+}
 /*Header*/
 .head-container {
 	max-width: 1000px;
@@ -190,9 +193,13 @@ body {
 
 /*Footer*/
 .footer {
+	position: absolute;
 	max-width:100%;
 	color: #00517a;
 	border-top: 1px solid #a30000;
+	height: 80px;
+	bottom: 0;
+	left: 0;
 }
 
 #bottom { clear:both;
