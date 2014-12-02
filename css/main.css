@@ -12,7 +12,7 @@ body {
 	background-color: #069;
 	position: fixed;
 	border-bottom: 1px solid #a30000;
-	padding-bottom: 400px;
+	margin-bottom: 400px;
 }
 
 .head-wrapper {
