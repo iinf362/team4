@@ -204,6 +204,7 @@ body {
 
 /*Footer*/
 .footer {
+	position: absolute;
 	margin: 0;
 	width:100%;
 	color: #e3e3e3;
