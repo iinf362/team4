@@ -10,7 +10,8 @@ body {
 	width: 100%;
 	height: 100px;
 	background-color: #069;
-	position: fixed; 
+	position: fixed;
+	border-bottom: 1px solid #a30000;
 }
 
 .head-wrapper {
