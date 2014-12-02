@@ -92,11 +92,9 @@ body {
 
 .content {
 	color: #00517a;
-	float: left;
-	max-width: 400px;
+	margin: 0 auto;
+	max-width: 600px;
 	height: 100%;
-	padding-right: 50px;
-	padding-left: 25px;
 }
  /* this box keepts the three divs in place */
  
@@ -204,7 +202,6 @@ body {
 
 /*Footer*/
 .footer {
-	position: fixed;
 	margin: 0;
 	width:100%;
 	color: #e3e3e3;
