@@ -9,6 +9,7 @@ body {
 p {
 	margin-bottom: 1.3em; 
 }
+
 #wrapper {
 	min-height: 100%;
 	position: relative;
@@ -30,7 +31,6 @@ p {
 
 .logo1 {
 	float: left;
-	padding-left: 100px;
 }
 
 .title {
@@ -53,13 +53,73 @@ p {
 	color: #a30000;
 }
 
+@media(max-width: 1123px){
+	.head-container {
+		height: 160px;
+	}
+}
 
 /*Navigation*/
 .nav {
-	padding-top: 70px;
-	padding-right: 5%;
+	padding-top: 10px;
+	max-width: 100%;
+}
+
+.nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.nav li {
+	display: inline-block;
+	position: relative;
+	padding: 3px 0px 3px 0px;
+
+}
+
+.nav a{
+    text-decoration: none;
+    background-color: #e3e3e3;
+    font-size: 16px;
+    font-weight: bold;
+    color: #069;
+    padding: .2em 1em;
+    width: 100%;
+    height: 100%;
+
+}
+
+.nav a:hover {
+	color: #e3e3e3;
+	background-color: #c00;
+}
+
+@media (max-width: 777px) {
+	.home{
+		float: left;
+		width: 100%;
+	}
+
+
+	.nav {
+		float: none;
+	} 
+}
+
+@media (min-width: 1123px){
+	.nav {
+		padding-top: 70px;
+	}
+}
+
+@media (min-width: 777px) {
+	.nav {
 	float: right;
 	max-width: 100%;
+	padding-right: 1%;
 }
 
 .nav ul {
@@ -74,8 +134,6 @@ p {
 }
 
 .nav a{
-	border: 1px solid #a30000;
-	border-radius: 10px;
 	background-color: #e3e3e3;
     text-decoration: none;
     font-size: 16px;
@@ -88,13 +146,24 @@ p {
 	color: #e3e3e3;
 	background-color: #c00;
 }
+}
 
 /*EyeCatcher*/
 .banner {
-	max-width: 700px;
+	max-width: 100%;
 	text-align: center;
 	margin: 0 auto;
 	padding-top: 200px;
+}
+
+.banner img{
+	max-width: 100%;
+}
+
+@media (max-width: 777px) {
+	.banner {
+		padding-top: 275px;
+	}
 }
 
 
@@ -241,6 +310,10 @@ p {
 	height: 40px;
 	bottom: 0;
 	left: 0;
+}
+
+.footp {
+	margin-bottom: 0;
 }
 
 #bottom { clear:both;
