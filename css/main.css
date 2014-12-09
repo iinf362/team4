@@ -195,6 +195,10 @@ p {
 	text-align: center;
 }
 
+@media (max-width:1150px) {
+	.container {padding-top: 200px;
+    }
+}
 .content {
 	color: black;
 	margin: 0 auto;
@@ -204,6 +208,7 @@ p {
 }
 
  /* this box keepts the three divs in place */
+
  /* Drops */
 
 .drops {
