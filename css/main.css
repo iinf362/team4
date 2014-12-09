@@ -187,6 +187,9 @@ p {
 #term {
 	padding-bottom: 50px;
 }
+#termcont {
+	padding-top: 100px;
+}
 .container h1, h2, h3 {
 	color: #c00;
 	text-align: center;
