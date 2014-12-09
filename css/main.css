@@ -217,7 +217,7 @@ p {
   cursor: pointer;
 }
 .drop-title:hover {
-  background: #34495e;
+  background: #e3e3e3;
 }
 .drop-content {
   padding: 1em;
