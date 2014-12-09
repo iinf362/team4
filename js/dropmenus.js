@@ -8,7 +8,7 @@ $('.drop-title').click(function() {
   var wasVisible = $(this).next().is(":visible");
 
   if (wasVisible != true){
-    allPanels.slideUp();
+    allDrops.slideUp();
     $(this).next().slideDown();
   }else {
     $(this).next().slideUp();
