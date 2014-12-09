@@ -198,7 +198,32 @@ p {
 }
 
  /* this box keepts the three divs in place */
- 
+ /* Drops */
+
+.drops {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.drop {
+  margin-bottom: 1em;
+  background: white;
+}
+
+.drop-title {
+  font-weight: bold;
+  background: #2c3e50;
+  color: white;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+.drop-title:hover {
+  background: #34495e;
+}
+.drop-content {
+  padding: 1em;
+}
+
+
 .box { 
  max-width:1360px;
  margin: auto;

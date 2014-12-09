@@ -1,0 +1,17 @@
+
+/*this is for the drop menus on the content pages. */
+
+var allDrops = $('.drop-content').hide();
+
+$('.drop-title').click(fiunction() {
+
+  var wasVisible = $(this).next().is(":visible");
+
+  if (wasVisible != true){
+    allPanels.slideUp();
+    $(this).next().slideDown();
+  }else {
+    $(this).next().slideUp();
+  }
+
+});
