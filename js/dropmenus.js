@@ -3,7 +3,7 @@
 
 var allDrops = $('.drop-content').hide();
 
-$('.drop-title').click(fiunction() {
+$('.drop-title').click(function() {
 
   var wasVisible = $(this).next().is(":visible");
 
