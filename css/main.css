@@ -184,6 +184,9 @@ p {
 	padding-top: 110px;
 }
 
+#term {
+	padding-bottom: 50px;
+}
 .container h1, h2, h3 {
 	color: #c00;
 	text-align: center;
