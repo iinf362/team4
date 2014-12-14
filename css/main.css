@@ -39,7 +39,7 @@ p {
 	font-size: 25px;
 	font-weight: bold; 
 	padding-left: 10px;
-	margin-top: 60px;
+	margin-top: 30px;
 }
 
 .title a {
@@ -104,6 +104,9 @@ p {
 		width: 100%;
 	}
 
+	.head-container {
+		height: 180px;
+	}
 
 	.nav {
 		float: none;
@@ -149,21 +152,33 @@ p {
 }
 }
 
+@media(max-width: 396px){
+	.head-container {
+		height: 210px;
+	}
+}
+
 /*EyeCatcher*/
 .banner {
 	max-width: 100%;
 	text-align: center;
 	margin: 0 auto;
-	padding-top: 200px;
+	padding-top: 150px;
 }
 
 .banner img{
 	max-width: 100%;
 }
 
+@media (max-width: 1123px) {
+	.banner {
+		padding-top: 200px;
+	}
+}
+
 @media (max-width: 777px) {
 	.banner {
-		padding-top: 275px;
+		padding-top: 220px;
 	}
 }
 
