@@ -221,10 +221,17 @@ p {
 	height: 100%;
 	text-align: center;
 }
+
 @media (max-width: 1123px) {
 	.content {
-		padding-top: 180px;
-	} 
+		padding-top: 25px;
+	}
+}
+
+@media (max-width: 777px) {
+	.content {
+		padding-top: 45px;
+	}
 }
 
  /* this box keepts the three divs in place */
