@@ -259,6 +259,7 @@ p {
 }
 .drop-content {
   padding: 1em;
+  text-align: left;
 }
 
 
